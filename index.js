@@ -14,19 +14,18 @@
 // });
 
 
-function multiplier( multiply) {
-  var mulfun = function (x) {
-    return multiply*x;
-  }
 
-  return mulfun
+
+var fun= function(x) {
+  console.log(x)
+
+  x=20
+  console.log(x)
 }
 
-var mul10 = multiplier(10)
-console.log(mul10(10))
+var x= 10
 
-function opr(y, oprunder) {
-  return oprunder(y)
-}
+console.log(x)
+fun(x)
 
-console.log(opr(5,mul10))
+console.log(x)

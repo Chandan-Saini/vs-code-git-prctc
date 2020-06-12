@@ -13,11 +13,20 @@
 //   console.log("server started.........");
 // });
 
-var company = new Object();
-company.name = "vaah dot com";
 
-company.ceo = {};
-company.ceo.name="chandan"
-company.$stock="100"
-company["price of stock"]= 200
-console.log(company["price of stock"]);
+function multiplier( multiply) {
+  var mulfun = function (x) {
+    return multiply*x;
+  }
+
+  return mulfun
+}
+
+var mul10 = multiplier(10)
+console.log(mul10(10))
+
+function opr(y, oprunder) {
+  return oprunder(y)
+}
+
+console.log(opr(5,mul10))

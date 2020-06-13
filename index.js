@@ -13,19 +13,16 @@
 //   console.log("server started.........");
 // });
 
+var arr = new Array();
 
+arr[0] = "10";
+arr[1] = 20;
+arr[2] = function fun(arg) {
+  var a = "hello";
+  return a + arg;
+};
+arr[3] = { name: "chandan", class: "8th" };
 
-
-var fun= function(x) {
-  console.log(x)
-
-  x=20
-  console.log(x)
+for (var i in arr) {
+  console.log(arr[3].name);
 }
-
-var x= 10
-
-console.log(x)
-fun(x)
-
-console.log(x)

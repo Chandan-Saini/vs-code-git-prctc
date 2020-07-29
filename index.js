@@ -34,3 +34,5 @@ console.log("chng 2 from old file");
 console.log("chng 2 from new file");
 
 console.log("chng 3 from old file");
+
+console.log("chng 3 from new files");

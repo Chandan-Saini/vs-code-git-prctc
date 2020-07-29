@@ -28,3 +28,4 @@ for (var i in arr) {
 }
 
 console.log("file changed for prctc");
+console.log("file changed for prctc of github cloning");

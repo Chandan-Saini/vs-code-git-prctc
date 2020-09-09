@@ -44,17 +44,17 @@ var Cat = mongoose.model("Cat", catSchema) //here we passed two arguments one is
 
 
 // these lines create a new cat and saves it and shows it ,create function helps in making a new cat and also saves it by itself.
-Cat.create({
-  name: "snow white",
-  age: 2,
-  temperament: "Bland"
-}, function (err, cat) {
-  if (err) {
-    console.log(err)
-  } else {
-    console.log(cat)
-  }
-})
+// Cat.create({
+//   name: "snow white new",
+//   age: 2,
+//   temperament: "Bland new"
+// }, function (err, cat) {
+//   if (err) {
+//     console.log(err)
+//   } else {
+//     console.log(cat)
+//   }
+// })
 
 
 

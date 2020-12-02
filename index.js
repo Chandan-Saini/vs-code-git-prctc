@@ -7,7 +7,7 @@ var mongoose = require("mongoose")
 mongoose.connect("mongodb://localhost:27017/cat_app", { useNewUrlParser: true })
 
 
-//this hello line create a schema for our data we will use later, it contain  which and what type of data we want to add to our db.
+//this line create a schema for our data we will use later, it contain  which and what type of data we want to add to our db.
 var catSchema = new mongoose.Schema({
   name: String,
   age: Number,

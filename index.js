@@ -32,14 +32,7 @@ var Cat = mongoose.model("Cat", catSchema) //here we passed two arguments one is
 //and it saves the cat george and then returns it if it get saved to the db and it will show message and the saved cat.
 
 // george.save(function(err , cat){
-//     if(err){
-//         console.log("something went wrong!")
-//     }
-//     else{
-//         console.log("we just save a cat to the database :")
-//         console.log(cat)                                       //here this (cat) is not that we made in this javascript file ,it is returned by the db
-//     }
-// })
+
 
 
 
